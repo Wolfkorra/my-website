@@ -1,0 +1,114 @@
+---
+title: "KOSMOS Multi-Slit Data Reduction Pipeline"
+description: "A Jupyter-based astronomy software pipeline for multi-slit spectroscopic data reduction and analysis."
+toc: true
+page-layout: article
+---
+
+## Overview
+
+The KOSMOS Multi-Slit Data Reduction Pipeline is a Python and Jupyter-based tool designed to process spectroscopic data from the ARC 3.5m Telescope's KOSMOS (Kitt Peak Ohio State Multi-Object Spectrograph) instrument. Built on top of the `astro-pyvista` package, the pipeline provides a graphical user interface (GUI) to guide users from raw telescope observations to final, science-ready spectra.
+
+My work in astronomy research pushed me toward careful computational work and reproducible analysis. I realized I enjoy building technical tools that other people can actually use. This pipeline is a direct reflection of that interest: it is specifically designed to be accessible for undergraduate students and first-time researchers, minimizing the coding barrier to entry while maintaining rigorous scientific standards.
+
+## Why this project matters
+
+Raw astronomical images are rarely perfect. They contain instrumental signatures like readout noise, thermal noise, hot pixels, and uneven illumination. In multi-slit spectroscopy, where light from multiple celestial objects is dispersed across a single detector simultaneously, mapping and extracting clean data becomes a complex geometric and computational challenge. 
+
+Standard reduction workflows often require users to navigate sequence-heavy scripts that can be unforgiving of errors. I designed this pipeline around an interactive, tabbed GUI that follows the logical flow of a reduction while allowing the flexibility to move back and forth between steps without breaking the workflow.
+
+## Pipeline workflow and architecture
+
+The interface is divided into functional tabs that handle distinct stages of the reduction process.
+
+### Calibration
+
+The first step in correcting instrumental signatures is generating master calibration frames. The pipeline automates the combination of:
+
+**Biases:** To correct for the camera's preset offset voltage.
+
+**Darks:** To remove thermal noise and hot pixels using sigma-clipping.
+
+**Flats:** To correct for dust and uneven illumination along the optical path.
+
+**Arcs:** To combine neon calibration lamp exposures.
+
+### Slit tracing and target mapping
+
+Before extracting data, the software must locate the physical slits on the detector. The pipeline takes a well-exposed flat frame to trace the slit edges automatically based on a user-defined edge threshold. It then cross-references these physical locations with the `.kms` slit mask file, linking each geometrical slit to its intended astronomical target. Users can dynamically filter this list to reduce only specific targets of interest.
+
+### Wavelength calibration
+
+This is one of the most critical steps in the reduction. The pipeline extracts a 2D arc spectrum for each slit and writes the initial mask coordinates into the FITS header to serve as a baseline guess. 
+
+The user is then presented with an interactive plot to identify known emission lines and fit a 3rd-degree polynomial to determine the precise pixel-to-wavelength mathematical relationship. Outliers can be removed interactively to bring the RMS below an acceptable threshold before the solution is saved.
+
+### Science reduction and extraction
+
+Once the geometry and wavelength solutions are established, the pipeline moves to the science frames.
+**Cosmic Ray Rejection:** Applies the `lacosmic` algorithm to clean the 2D frame of cosmic rays before extraction.
+**2D Extraction:** Extracts individual "slitlets," applying the master flat correction on a precise slit-by-slit basis to avoid introducing noise from outside the spectral regions.
+**Skyline Fitting:** Analyzes rows designated as sky background to identify night sky emission lines, computing subtle, final corrections to the wavelength solution.
+**1D Extraction:** Collapses the 2D slitlet into a final 1D spectrum (flux versus wavelength) by tracing the object, summing the flux, and subtracting the calculated sky background.
+
+## Post-processing and analysis
+
+The pipeline includes built-in tools for post-processing the extracted 1D spectra.
+
+### Spectra stacking
+
+For targets with multiple exposures, the pipeline provides a stacking interface. This allows users to combine multiple 1D spectra to increase the signal-to-noise ratio, averaging out random noise while preserving the true astronomical signal.
+
+### Radial velocity analysis
+
+The `AstroAnalysis` class provides a secondary GUI specifically for measuring a star's radial velocity (RV). 
+It automates the fitting of the Calcium II Triplet (CaT) absorption lines at rest wavelengths of 8498.02, 8542.09, and 8662.14 Å.
+Users can fit a Gaussian or Voigt profile to the lines and log the data.
+The software calculates the mean RV across the triplet and automatically applies barycentric corrections using `astropy` to account for the Earth's motion.
+
+## Validation
+
+To ensure the pipeline produces scientifically valid results, I tested it using observational data from an M3 mask. We successfully extracted the spectra, computed the radial velocities, and compared our calculated, barycentric-corrected RVs against established, publicly available values from the APOGEE survey catalog.
+
+## Interface previews
+
+::: {.callout-note}
+## Main Interface Placeholder
+
+Replace this block with a screenshot of the main CoFI Reduction Interface.
+
+Suggested file:
+`images/projects/kosmos-main-gui.png`
+
+Suggested caption:
+"The main GUI features a tabbed workflow and a built-in guide to help new users navigate the reduction steps."
+:::
+
+::: {.callout-note}
+## Wavelength Calibration Placeholder
+
+Replace this block with a screenshot of the interactive wavelength calibration plot.
+
+Suggested file:
+`images/projects/kosmos-wavecal.png`
+
+Suggested caption:
+"Interactive polynomial fitting for wavelength calibration, allowing users to remove outliers and refine the fit."
+:::
+
+::: {.callout-note}
+## RV Analysis Placeholder
+
+Replace this block with a screenshot of the Radial Velocity analysis GUI.
+
+Suggested file:
+`images/projects/kosmos-rv-gui.png`
+
+Suggested caption:
+"The AstroAnalysis tool automates CaT line fitting and radial velocity calculations."
+:::
+
+## Links
+
+- [GitHub repository](https://github.com/mwbest/CofI_2025)
+- [Pyvista documentation](https://pyvista.readthedocs.io/en/latest/)

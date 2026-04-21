@@ -1,0 +1,213 @@
+---
+title: "AgriBot-Assist"
+description: "A low-cost solar-powered farming robot for small agricultural plots."
+toc: true
+page-layout: article
+---
+
+## Overview
+
+AgriBot-Assist is a low-cost, solar-powered farming robot designed for small agricultural plots. The project is aimed at reducing the physical burden of plowing and related field work for low-income farming families who do not have access to expensive modern equipment. The current concept combines a Raspberry Pi, Arduino controllers, LoRa communication, GPS, solar power, and onboard sensing to create a practical autonomous field assistant. :contentReference[oaicite:0]{index=0}
+
+What makes this project important to me is that it grows out of a real problem I know personally. In my personal statement, I explain that I grew up in a farming village where hard physical labor shaped daily life, and where affordable agricultural automation could create more room for education, creativity, and long-term community growth. That motivation is the reason this project exists. :contentReference[oaicite:1]{index=1}
+
+## Why this project matters
+
+Many smallholder farmers still rely on manual labor and animal traction because tractors and other modern machines are too expensive. The proposal frames that problem in practical terms: physical strain, time loss, limited efficiency, and the way economic pressure can pull children into farm labor instead of school. AgriBot-Assist is meant to address one part of that problem by automating plowing on small plots with a design built around affordability and accessible parts. :contentReference[oaicite:2]{index=2}
+
+The larger goal is not just to build a robot that moves. It is to design a system that can work under the constraints that matter in the real world: limited budgets, off-grid power, simple interfaces, and field boundaries that are not already digitized. The proposal sets that goal clearly as a functional prototype that can autonomously plow within GPS-defined small farm boundaries. :contentReference[oaicite:3]{index=3}
+
+## Project goals
+
+The current project goals are:
+
+- finalize a low-cost mechanical and electronic design
+- build and integrate the prototype chassis, drive system, plow mechanism, solar power system, and control electronics
+- develop Raspberry Pi software for boundary calculation, interface logic, and communication
+- develop Arduino software for navigation, motor control, obstacle avoidance, and plowing logic
+- test the robot in controlled field-like conditions
+- document the build, code, and performance of the prototype
+
+These goals come directly from the proposal and give the project a clear engineering path rather than leaving it as a broad idea. :contentReference[oaicite:4]{index=4}
+
+## System architecture
+
+The robot is designed around a split-control architecture.
+
+### Raspberry Pi responsibilities
+
+The Raspberry Pi acts as the central brain. It is intended to handle:
+
+- GPS parsing
+- boundary creation from coordinate points
+- path planning
+- task coordination
+- obstacle avoidance
+- communication with the Arduino Mega through serial
+- user interface logic
+
+The design notes explicitly state that the Pi should receive farm boundary points, convert them into a polygon, select a starting point, compute the path, and send movement or task commands to the Arduino Mega. :contentReference[oaicite:5]{index=5}
+
+### Arduino responsibilities
+
+The Arduino Mega is responsible for the real-time control layer. Its main role is to receive commands from the Pi and drive the wheel motors and the plowing motor through motor drivers. This separation keeps timing-critical hardware control on the microcontroller while leaving higher-level planning on the Pi. :contentReference[oaicite:6]{index=6}
+
+### Boundary definition and communication
+
+The communication plan uses LoRa and GPS in stages:
+
+1. A GPS and LoRa pair connected to an Arduino Uno collects coordinate points.
+2. Those coordinates are sent to the Raspberry Pi.
+3. The Pi builds the polygonal boundary of the farm.
+4. A starting point is selected.
+5. The Pi sends guidance and control information to the Arduino Mega.
+6. The Mega drives the motors while the Pi handles navigation logic and task coordination.
+
+The current design also notes that LoRa communication is not yet fully working, so the code should be written in a way that preserves LoRa support for later while still allowing test runs with the built-in GPS system. :contentReference[oaicite:7]{index=7}
+
+## Hardware stack
+
+The current hardware plan includes:
+
+- Raspberry Pi 5 with Raspberry Pi OS and NVMe storage
+- Arduino Uno
+- Arduino Mega
+- 2 LoRa modules
+- 2 NEO-6M GPS modules
+- RCWL-1601 ultrasonic sensor
+- MG995 servo motor for ultrasonic scanning
+- MPU-6050 gyroscope / accelerometer
+- 4 geared DC wheel motors with encoders
+- BTS7960 motor drivers
+- 1 geared motor for raising and lowering the plowing tool
+- 12V lithium-ion battery packs
+
+The hardware notes also specify that the wheel motors use encoders and that each major motor function is paired with its own motor driver. :contentReference[oaicite:8]{index=8}
+
+## Navigation and path-planning idea
+
+One of the more interesting parts of the design is the idea of treating the farm boundary like a 3D printer bed. The notes describe the polygonal field boundary as the equivalent of a print area, with the robot moving through it like a print head or extruder assembly. In that model, the Pi computes the full path before the plowing action begins, taking into account the dimensions of the robot and attached tool. :contentReference[oaicite:9]{index=9}
+
+That is a strong way to explain the project because it turns the navigation problem into something concrete and intuitive. It also highlights that this is not just a remote-control rover. It is meant to be a task-oriented machine with planned coverage over a defined working area.
+
+## Interface and GUI roadmap
+
+The GUI roadmap shows a clear intention to make the interface more usable and more visual over time. The sketch includes:
+
+- coordinate entry fields
+- buttons for adding and removing points
+- a path planning area
+- save and load path controls
+- a starting point input
+- action buttons for send path and start, pause, resume, and stop
+- a connect Arduino control
+- graphical logging instead of plain text
+- progress and time statistics
+- sensor readouts displayed as graphs rather than single values
+
+That roadmap is useful because it shows that the interface is being treated as part of the engineering problem, not just as a last-minute add-on. :contentReference[oaicite:10]{index=10}
+
+## Current development status
+
+At this stage, the project is best described as an active prototype and system design effort rather than a finished field robot.
+
+What is already clear:
+- the mission and use case
+- the hardware stack
+- the split between Pi logic and Arduino control
+- the communication plan
+- the path-planning concept
+- the intended user interface
+
+What is still in progress:
+- reliable LoRa communication between the Arduino Uno and the Pi
+- full system integration
+- field testing of autonomous motion inside the defined boundary
+- plowing validation
+- final GUI implementation
+- performance documentation
+
+The proposal also defines concrete yes/no testing goals: whether the robot can receive coordinates, map them on the monitor, move within the boundaries, and till the land in a test environment. :contentReference[oaicite:11]{index=11}
+
+## Expected impact
+
+The long-term goal is to reduce physical strain, save time, support education by reducing child labor pressure, improve farming efficiency, and promote renewable energy use in agriculture. The project is also meant to be a step toward locally meaningful technology, not just a copy of equipment built for a different environment and different economic conditions. :contentReference[oaicite:12]{index=12} :contentReference[oaicite:13]{index=13}
+
+That broader context matters. AgriBot-Assist is not just a robotics exercise. It is a design response to a real constraint: how to build agricultural technology that is actually realistic for the communities it is meant to serve.
+
+## Technical focus
+
+This project lets me work across several technical areas at once:
+
+- embedded systems
+- robotics
+- Python-based coordination and interface design
+- microcontroller programming
+- serial and LoRa communication
+- GPS-based path planning
+- obstacle avoidance
+- prototyping and hardware integration
+
+It also reflects the hands-on direction I describe in my broader work and academic trajectory: building systems that connect software, hardware, and real-world constraints. :contentReference[oaicite:14]{index=14} :contentReference[oaicite:15]{index=15}
+
+## Final GUI placeholder
+
+::: {.callout-note}
+## Final GUI placeholder
+
+Replace this block with a screenshot of the completed AgriBot-Assist interface.
+
+Suggested file:
+`images/projects/agribot-gui-final.png`
+
+Suggested caption:
+“Final control interface for boundary entry, path planning, live robot status, and task execution.”
+:::
+
+## Build and field-test photo placeholders
+
+::: {.callout-note}
+## Robot prototype placeholder
+
+Replace this block with a photo of the full robot chassis and drivetrain.
+
+Suggested file:
+`images/projects/agribot-prototype.jpg`
+:::
+
+::: {.callout-note}
+## Field test placeholder
+
+Replace this block with a photo of the robot during plowing or boundary testing.
+
+Suggested file:
+`images/projects/agribot-field-test.jpg`
+:::
+
+::: {.callout-note}
+## Electronics and wiring placeholder
+
+Replace this block with a photo showing the Raspberry Pi, Arduino, motor drivers, batteries, and wiring layout.
+
+Suggested file:
+`images/projects/agribot-electronics.jpg`
+:::
+
+## Future directions
+
+The next major steps are straightforward:
+
+- complete robust Pi-to-Arduino and LoRa communication
+- finalize the GUI implementation
+- improve path execution and obstacle handling
+- integrate the plowing mechanism into full test runs
+- document the final build and cost in a reproducible way
+- test the system under increasingly realistic field conditions
+
+The proposal already treats documentation and cost analysis as part of the project outcome, which is the right approach for something meant to grow beyond a single prototype. :contentReference[oaicite:16]{index=16}
+
+## Links
+
+- [Project proposal](../assets/Farming_projecft_proposal.pdf)
+- [System and communication notes](../assets/Arigbot_com.pdf)
+- [GUI roadmap](../assets/gui_road_map.pdf)

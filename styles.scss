@@ -1,0 +1,371 @@
+/*-- scss:defaults --*/
+$body-bg: #F8F7F4;
+$body-color: #171A1F;
+$link-color: #1C3D52;
+$navbar-bg: #F8F7F4;
+$navbar-fg: #171A1F;
+$border-color: #E4E1DA;
+$primary: #1C3D52;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, Futura, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: Georgia, "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
+$headings-font-weight: 700;
+
+/*-- scss:rules --*/
+body {
+  line-height: 1.68;
+}
+
+.navbar {
+  border-bottom: 1px solid $border-color;
+}
+
+.page-columns {
+  max-width: 72rem;
+}
+
+.cover-hero {
+  position: relative;
+  margin: 0 0 2rem 0;
+  border-radius: 22px;
+  overflow: hidden;
+  min-height: 27rem;
+  background: #d9dde2;
+}
+
+.cover-image {
+  width: 100%;
+  height: 27rem;
+  object-fit: cover;
+  display: block;
+  filter: saturate(0.95) contrast(1.02);
+}
+
+.cover-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(17, 26, 36, 0.18) 0%, rgba(17, 26, 36, 0.52) 72%, rgba(17, 26, 36, 0.72) 100%);
+  display: flex;
+  align-items: end;
+}
+
+.cover-text {
+  padding: 1.5rem 1.5rem 1.7rem 1.5rem;
+  color: white;
+  max-width: 46rem;
+}
+
+.cover-kicker {
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.55rem;
+  opacity: 0.95;
+}
+
+.cover-text h1 {
+  margin: 0 0 0.35rem 0;
+  font-size: clamp(2.3rem, 4.8vw, 4rem);
+  line-height: 1.02;
+}
+
+.cover-text p {
+  margin: 0;
+  font-size: 1.04rem;
+  max-width: 34rem;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.45fr 0.9fr;
+  gap: 2rem;
+  align-items: center;
+  padding: 0.5rem 0 1.25rem 0;
+}
+
+.hero h2 {
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
+  line-height: 1.1;
+  margin-bottom: 0.8rem;
+}
+
+.headshot {
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 18px;
+  border: 1px solid $border-color;
+  background: white;
+}
+
+.tag-row,
+.badge-row,
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.tag-row {
+  margin: 1rem 0 1.15rem 0;
+}
+
+// .tag,
+// .badge {
+//   display: inline-block;
+//   border-radius: 999px;
+//   border: 1px solid $border-color;
+//   background: white;
+//   font-size: 0.9rem;
+// }
+
+// .tag {
+//   padding: 0.45rem 0.8rem;
+// }
+
+// .badge {
+//   padding: 0.3rem 0.58rem;
+//   font-size: 0.83rem;
+// }
+
+.tag,
+.tech-pill {
+  display: inline-block;
+  border-radius: 999px;
+  border: 1px solid $border-color;
+  background: white;
+  color: #171A1F;
+  font-size: 0.9rem;
+}
+
+.tech-pill {
+  padding: 0.3rem 0.58rem;
+  font-size: 0.83rem;
+}
+
+
+
+.button-row {
+  margin-top: 1rem;
+}
+
+.button-row a,
+.primary-link,
+.secondary-link {
+  text-decoration: none;
+}
+
+.section-block {
+  padding: 1.65rem 0;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+.project-card,
+.poster-card {
+  border: 1px solid $border-color;
+  border-radius: 16px;
+  padding: 1.15rem;
+  background: white;
+  height: 100%;
+}
+
+.project-card h3,
+.poster-card h3 {
+  margin-top: 0.1rem;
+  margin-bottom: 0.45rem;
+  font-size: 1.22rem;
+}
+
+.card-kicker {
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #516070;
+  margin-bottom: 0.55rem;
+}
+
+.project-meta {
+  color: #516070;
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+}
+
+.project-links {
+  margin-top: 0.85rem;
+  font-size: 0.95rem;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.info-card {
+  border: 1px solid $border-color;
+  border-radius: 14px;
+  background: white;
+  padding: 1rem;
+}
+
+.poster-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.1rem;
+  margin-top: 1rem;
+}
+
+.poster-thumb {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+  border: 1px solid $border-color;
+  margin-bottom: 0.95rem;
+  background: #f0f1f3;
+}
+
+.poster-placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 12px;
+  border: 1px dashed #91a0ad;
+  background: #f6f7f8;
+  display: grid;
+  place-items: center;
+  margin-bottom: 0.95rem;
+}
+
+.poster-placeholder-inner {
+  color: #5d6975;
+  font-size: 0.98rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+
+.gallery-image {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid $border-color;
+  background: white;
+}
+
+.note-box {
+  border-left: 4px solid $primary;
+  background: white;
+  border-radius: 10px;
+  padding: 0.95rem 1rem;
+  margin: 1rem 0 1.2rem 0;
+}
+
+.resume-block,
+.statement-block {
+  border: 1px solid $border-color;
+  border-radius: 16px;
+  background: white;
+  padding: 1.2rem;
+  margin: 1rem 0 1.25rem 0;
+}
+
+.kv-list {
+  margin: 0.25rem 0 0 0;
+}
+
+.kv-list dt {
+  font-weight: 700;
+  margin-top: 0.75rem;
+}
+
+.kv-list dd {
+  margin-left: 0;
+  margin-bottom: 0.35rem;
+}
+
+.tight-list li {
+  margin-bottom: 0.35rem;
+}
+
+.callout-links {
+  margin-top: 1rem;
+}
+
+.callout-links a {
+  margin-right: 0.9rem;
+}
+
+@media (max-width: 900px) {
+  .hero,
+  .card-grid,
+  .info-grid,
+  .poster-grid,
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cover-hero,
+  .cover-image {
+    min-height: 21rem;
+    height: 21rem;
+  }
+}
+
+.ceramics-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+  border: 3px solid red;
+}
+
+.ceramics-photo {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  display: block;
+  border-radius: 16px;
+}
+.ceramics-grid p {
+  display: contents;
+}
+// .top-view {
+//   object-fit: contain;
+  
+//   /* Optional: 'contain' might leave empty space on the sides. 
+//      You can set a background color here to match your site's background 
+//      so the empty space blends in seamlessly. */
+//   background-color: transparent; 
+// }
+// .top-view {
+//   /* Shifts the focus. Try "bottom", "top", or percentages like "50% 20%" */
+//   object-position: center bottom; 
+// }
+
+@media (max-width: 900px) {
+  .ceramics-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .ceramics-grid {
+    grid-template-columns: 1fr !important;
+  }
+}

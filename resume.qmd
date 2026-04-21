@@ -1,0 +1,60 @@
+---
+title: "Resume"
+description: "Resume summary for Abdullah Korra."
+toc: false
+---
+
+<!-- ## Resume -->
+<!-- 
+::: {.note-box}
+This is a clean summary for easy reading for quick glance. **Click Download** to view the actual resume..
+::: -->
+
+<!-- [Download resume PDF](assets/Abdullah_Korra_Resume.pdf){.btn .btn-primary} -->
+::: {.resume-block}
+### Abdullah Korra
+
+**BS in Math-Physics | Scientific Computing, Astronomy, and Robotics**
+
+Caldwell, Idaho  
+[Email](mailto:koraabdoulie@gmail.com)  
+[GitHub](https://github.com/Wolfkorra?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/MY-LINKEDIN/)
+:::
+
+
+<iframe src="assets/Abdullah_Korra_Resume.pdf" width="100%" height="600px" style="border: 1px solid #E4E1DA; border-radius: 8px; margin-top: 1rem;"></iframe>
+
+[Open PDF in new tab](assets/Abdullah_Korra_Resume.pdf){.btn .btn-outline-primary target="_blank"}
+
+
+<!-- ### Profile
+
+Math-Physics student with experience in Python, scientific computing, astronomy software, robotics, and reproducible analysis. Interested in machine learning, computational modeling, and research workflows that combine data, physical systems, and clear communication.
+
+### Education
+
+**The College of Idaho**  
+BS in Math-Physics, expected May 2026
+
+### Research and project experience
+
+**Astronomy Research Assistant**  
+Worked on astronomy research involving spectroscopy and data reduction workflows. Built or contributed to tools for reducing and organizing observational data and supporting reproducible research workflows.
+
+**KOSMOS Multi-Slit Data Reduction Pipeline**  
+Built a Jupyter-based astronomy workflow for multi-slit spectroscopic data reduction and user-facing interaction from raw observations to final outputs.
+
+**Agribot Project**  
+Designed and prototyped an affordable agricultural robotics concept using Raspberry Pi, Arduino, sensors, and control logic.
+
+### Technical skills
+
+- **Languages and tools:** Python, Git, Jupyter, Quarto
+- **Data and ML:** pandas, NumPy, scikit-learn, regression, classification, cross-validation, ROC-AUC, RMSE
+- **Scientific and engineering tools:** scientific computing, spectroscopy workflows, Arduino, Raspberry Pi, Fusion 360
+- **Workflow skills:** reproducible analysis, version control, technical writing, figure design
+
+### Communication
+
+Experience presenting technical work through reports, reproducible notebooks, and project documentation for readers with different levels of technical background.
+::: -->

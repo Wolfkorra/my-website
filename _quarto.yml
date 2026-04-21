@@ -1,21 +1,109 @@
 project:
   type: website
+  output-dir: _site
+  resources:
+    - assets/
+    - images/
 
 website:
-  title: "my-website"
+  title: "Abdullah Korra"
+  site-url: "https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/"
+  description: "Portfolio of Abdullah Korra: scientific computing, machine learning, astronomy software, robotics, and reproducible analysis."
+  favicon: assets/favicon.png
+
+  open-graph:
+    image: assets/social-card.png
+    image-alt: "Preview card for Abdullah Korra portfolio"
+    site-name: "Abdullah Korra"
+
+  twitter-card:
+    card-style: summary_large_image
+    image: assets/social-card.png
+    image-alt: "Preview card for Abdullah Korra portfolio"
+
+  # navbar:
+  #   left:
+  #     - href: index.qmd
+  #       text: Home
+  #     - href: projects.qmd
+  #       text: Projects
+  #     - href: analysis/telco-churn-report.qmd
+  #       text: Sample Analysis
+  #     - href: resume.qmd
+  #       text: Resume
+  #     - href: statement.qmd
+  #       text: Statement
+  #     - href: contact.qmd
+  #       text: Contact
+  #   right:
+  #     - icon: github
+  #       href: "https://github.com/Wolfkorra?tab=repositories"
+  #       aria-label: GitHub
+  #     - icon: linkedin
+  #       href: "https://www.linkedin.com/in/MY-LINKEDIN/"
+  #       aria-label: LinkedIn
+
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - text: Projects
+        menu: 
+          - href: projects.qmd
+            text: Projects Overview
+          - href: projects/agribot.qmd
+            text: AgriBot-Assist
+          - href: projects/kosmos.qmd
+            # text: KOSMOS Pipeline
+      - href: analysis/telco-churn-report.qmd
+        text: Sample Analysis
+      - href: resume.qmd
+        text: Resume
+      - text: Personal History
+        menu:
+          - href: history/education.qmd
+            text: Education
+          - href: history/life-journey.qmd
+            text: Life's Journey
+          - href: history/statement.qmd
+            text: Statement
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: "https://github.com/Wolfkorra?tab=repositories"
+        aria-label: GitHub
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/MY-LINKEDIN/"
+        aria-label: LinkedIn
+
+  page-footer:
+    left: "© 2026 Abdullah Korra"
+    right: "Built with Quarto and GitHub Pages"
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
+    theme: [litera, styles.scss]
     toc: true
+    page-layout: article
+    smooth-scroll: true
+    anchor-sections: true
+    code-copy: true
+    code-fold: true
+    code-summary: "Show code"
+    code-overflow: wrap
+    link-external-newwindow: true
+    include-in-header:
+      text: |
+        <meta name="author" content="Abdullah Korra">
+        <meta name="keywords" content="Python, pandas, scikit-learn, regression, classification, cross-validation, RMSE, ROC-AUC, Git, reproducible workflows, astronomy, robotics, machine learning">
+        <meta name="twitter:title" content="Abdullah Korra | Portfolio">
+        <meta name="twitter:description" content="Scientific computing, astronomy software, robotics, and reproducible analysis.">
+        <meta property="og:title" content="Abdullah Korra | Portfolio">
+        <meta property="og:description" content="Scientific computing, astronomy software, robotics, and reproducible analysis.">
 
-
-
+execute:
+  freeze: auto
+  echo: false
+  warning: false
+  message: false

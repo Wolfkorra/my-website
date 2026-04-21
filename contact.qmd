@@ -1,0 +1,24 @@
+---
+title: "Contact"
+description: "Contact information for Abdullah Korra."
+toc: false
+---
+
+## Contact
+
+The best way to reach me is by email.
+
+::: {.resume-block}
+- **Email:** [YOUR_EMAIL@example.com](mailto:YOUR_EMAIL@example.com)
+- **GitHub:** [github.com/YOUR-USERNAME](https://github.com/YOUR-USERNAME)
+- **LinkedIn:** [linkedin.com/in/YOUR-LINKEDIN](https://www.linkedin.com/in/YOUR-LINKEDIN/)
+:::
+
+## Notes for recruiters and collaborators
+
+I am interested in roles and research opportunities related to:
+- data science and machine learning
+- scientific computing
+- computational modeling
+- astronomy and research software
+- robotics and embedded systems

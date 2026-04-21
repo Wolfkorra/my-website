@@ -1,0 +1,46 @@
+---
+title: "Education"
+description: "Academic background, formal training, and apprenticeships."
+toc: true
+page-layout: article
+---
+
+## Formal Education
+
+### The College of Idaho
+**Bachelor of Science in Math-Physics (Major)** *Specializations in Pre-engineering and Data Science*  
+*August 2022 – Present | Caldwell, Idaho, United States*
+
+My undergraduate experience is rooted in a Liberal Arts education, which is designed to develop critical thinking, creativity, and problem-solving abilities. By combining this foundation with general mathematics and physics, I am gaining the comprehensive understanding necessary for a career in engineering. Additionally, my specialization in data science equips me with the skills to analyze and interpret complex data across various fields. I am currently studying here as a Shelby M.C. Davis Scholar. 
+
+### United World College Adriatic (UWCAD)
+**International Baccalaureate (IB) Diploma** 
+*September 2019 – April 2021 | Duino, Italy*
+
+Attending UWCAD on a prestigious scholarship provided me with a rigorous education focused on intercultural understanding and social responsibility. The multicultural environment taught me to communicate effectively, build bridges across cultural differences, and work collaboratively in diverse groups. 
+
+<!-- ::: {.callout-note}
+## IB Diploma Placeholder
+
+Replace this block with an image or PDF embed of the actual IB Diploma.
+
+Suggested file path:
+`assets/documents/Abdullah_IB_Diploma.pdf`
+::: -->
+
+<iframe src="../assets/documents/Abdullah_IB_Diploma.pdf" width="100%" height="600px" style="border: 1px solid #E4E1DA; border-radius: 8px; margin-top: 1rem;"></iframe>
+
+[Open PDF in new tab](../assets/documents/Abdullah_IB_Diploma.pdf){.btn .btn-outline-primary target="_blank"}
+
+---
+
+## Technical Apprenticeships & Trade Skills
+
+Before pursuing traditional higher education, I spent over a decade gaining hands-on, practical engineering and construction experience through various trade apprenticeships.
+
+* **Building Electrician (2016 – 2018 | Palermo, Italy):** Acquired a strong foundation in electrical construction and lighting fixture installation under the mentorship of Giuseppe Bruccolieri.
+
+* **Construction Painter (2016 – 2018 | Palermo, Italy):** Acquired knowledge in painting buildings and color mixing.
+* **Plumber (2016 – 2018 | Palermo, Italy):** Gained comprehensive expertise in resolving plumbing issues, replacing valves, and testing restored systems.
+
+* **Automotive Mechanic (2006 – 2016 | Kerr Sering, The Gambia):** Completed a six-year apprenticeship focused on diagnosing and repairing vehicles, performing routine maintenance, rebuilding engines, and conducting wheel alignments.
