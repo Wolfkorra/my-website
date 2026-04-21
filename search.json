@@ -77,151 +77,39 @@
     "text": "Links\n\nGitHub repository\nPyvista documentation"
   },
   {
-    "objectID": "projects/projects.html",
-    "href": "projects/projects.html",
-    "title": "Projects",
+    "objectID": "history/education.html",
+    "href": "history/education.html",
+    "title": "Education",
     "section": "",
-    "text": "This page highlights work in astronomy software, robotics, and machine learning. The goal is to show range without losing focus.\n\n\n\nA Python and Jupyter-based astronomy workflow for reducing KOSMOS multi-slit spectroscopic data. The project is built around an interactive workflow that helps move from raw observations to final science products with cleaner user interaction than a loose notebook sequence.\n\nJupyter Scientific Computing Data Reduction Astronomy\n\n\n\nWhy it matters. This is the most distinctive project on the site because it combines domain knowledge, tool-building, and user experience. It reads as original technical work rather than a standard class assignment.\nWhat it shows. - Software design for research workflows - Scientific computing in Python - Reproducible analysis habits - Communication of a technical process to users\nGitHub repository\n\n\n\n\n\nAn affordable agricultural robotics concept focused on embedded control, motion planning, and practical design under real-world constraints. The long-term motivation is to build technology that is actually usable in resource-constrained farming communities.\n\nArduino Raspberry Pi Embedded Control Robotics\n\n\nWhy it matters. This project shows that my technical interests are not limited to pure analysis. I also build around hardware, sensors, control logic, and physical systems.\nWhat it shows. - Systems thinking - Rapid prototyping - Practical engineering tradeoffs - Strong motivation for applied problem solving\n\n\n\n\n\nA prose-first Quarto report on customer churn prediction using Python, pandas, scikit-learn, classification models, cross-validation, and ROC-AUC. The writeup is designed to read like a professional analysis memo rather than a homework notebook.\n\nscikit-learn Classification Cross-Validation ROC-AUC Git\n\nWhy it matters. This is the most recruiter-friendly project on the site. It directly mirrors the language used in many entry-level data science and ML job descriptions.\nWhat it shows. - Exploratory data analysis - Feature engineering and preprocessing - Logistic regression and tree-based modeling - Performance analysis with clean narrative structure\nOpen the report\n\n\n\n\nThese materials show the research side of the astronomy work and make the project feel more complete. They also show that the work can be explained clearly in a public presentation format.\n\n\n\n\n\nFocuses on the KOSMOS reduction pipeline, science motivation, RV analysis, and validation against APOGEE values.\nOpen PDF\n\n\n\n\n\n\nA revised poster version that foregrounds pipeline construction, extracted spectra, wavelength calibration, and future validation work.\nOpen PDF\n\n\n\n\n\nFuture poster or presentation\n\n\n\n\nReserved for another poster, slide deck, or technical presentation.\n\n\n\n\n\n\n\nReserved for a second polished report centered on regression, RMSE, and model comparison. A strong follow-up option is a house-price or energy-usage problem with clearer continuous outcomes."
+    "text": "Bachelor of Science in Math-Physics (Major) Specializations in Pre-engineering and Data Science\nAugust 2022 – Present | Caldwell, Idaho, United States\nMy undergraduate experience is rooted in a Liberal Arts education, which is designed to develop critical thinking, creativity, and problem-solving abilities. By combining this foundation with general mathematics and physics, I am gaining the comprehensive understanding necessary for a career in engineering. Additionally, my specialization in data science equips me with the skills to analyze and interpret complex data across various fields. I am currently studying here as a Shelby M.C. Davis Scholar.\n\n\n\nInternational Baccalaureate (IB) Diploma September 2019 – April 2021 | Duino, Italy\nAttending UWCAD on a prestigious scholarship provided me with a rigorous education focused on intercultural understanding and social responsibility. The multicultural environment taught me to communicate effectively, build bridges across cultural differences, and work collaboratively in diverse groups.\n\n\n\nOpen PDF in new tab"
   },
   {
-    "objectID": "projects/projects.html#selected-projects",
-    "href": "projects/projects.html#selected-projects",
-    "title": "Projects",
+    "objectID": "history/education.html#formal-education",
+    "href": "history/education.html#formal-education",
+    "title": "Education",
     "section": "",
-    "text": "This page highlights work in astronomy software, robotics, and machine learning. The goal is to show range without losing focus.\n\n\n\nA Python and Jupyter-based astronomy workflow for reducing KOSMOS multi-slit spectroscopic data. The project is built around an interactive workflow that helps move from raw observations to final science products with cleaner user interaction than a loose notebook sequence.\n\nJupyter Scientific Computing Data Reduction Astronomy\n\n\n\nWhy it matters. This is the most distinctive project on the site because it combines domain knowledge, tool-building, and user experience. It reads as original technical work rather than a standard class assignment.\nWhat it shows. - Software design for research workflows - Scientific computing in Python - Reproducible analysis habits - Communication of a technical process to users\nGitHub repository\n\n\n\n\n\nAn affordable agricultural robotics concept focused on embedded control, motion planning, and practical design under real-world constraints. The long-term motivation is to build technology that is actually usable in resource-constrained farming communities.\n\nArduino Raspberry Pi Embedded Control Robotics\n\n\nWhy it matters. This project shows that my technical interests are not limited to pure analysis. I also build around hardware, sensors, control logic, and physical systems.\nWhat it shows. - Systems thinking - Rapid prototyping - Practical engineering tradeoffs - Strong motivation for applied problem solving\n\n\n\n\n\nA prose-first Quarto report on customer churn prediction using Python, pandas, scikit-learn, classification models, cross-validation, and ROC-AUC. The writeup is designed to read like a professional analysis memo rather than a homework notebook.\n\nscikit-learn Classification Cross-Validation ROC-AUC Git\n\nWhy it matters. This is the most recruiter-friendly project on the site. It directly mirrors the language used in many entry-level data science and ML job descriptions.\nWhat it shows. - Exploratory data analysis - Feature engineering and preprocessing - Logistic regression and tree-based modeling - Performance analysis with clean narrative structure\nOpen the report\n\n\n\n\nThese materials show the research side of the astronomy work and make the project feel more complete. They also show that the work can be explained clearly in a public presentation format.\n\n\n\n\n\nFocuses on the KOSMOS reduction pipeline, science motivation, RV analysis, and validation against APOGEE values.\nOpen PDF\n\n\n\n\n\n\nA revised poster version that foregrounds pipeline construction, extracted spectra, wavelength calibration, and future validation work.\nOpen PDF\n\n\n\n\n\nFuture poster or presentation\n\n\n\n\nReserved for another poster, slide deck, or technical presentation.\n\n\n\n\n\n\n\nReserved for a second polished report centered on regression, RMSE, and model comparison. A strong follow-up option is a house-price or energy-usage problem with clearer continuous outcomes."
+    "text": "Bachelor of Science in Math-Physics (Major) Specializations in Pre-engineering and Data Science\nAugust 2022 – Present | Caldwell, Idaho, United States\nMy undergraduate experience is rooted in a Liberal Arts education, which is designed to develop critical thinking, creativity, and problem-solving abilities. By combining this foundation with general mathematics and physics, I am gaining the comprehensive understanding necessary for a career in engineering. Additionally, my specialization in data science equips me with the skills to analyze and interpret complex data across various fields. I am currently studying here as a Shelby M.C. Davis Scholar.\n\n\n\nInternational Baccalaureate (IB) Diploma September 2019 – April 2021 | Duino, Italy\nAttending UWCAD on a prestigious scholarship provided me with a rigorous education focused on intercultural understanding and social responsibility. The multicultural environment taught me to communicate effectively, build bridges across cultural differences, and work collaboratively in diverse groups.\n\n\n\nOpen PDF in new tab"
   },
   {
-    "objectID": "history/life-journey.html",
-    "href": "history/life-journey.html",
-    "title": "Life’s Journey",
-    "section": "",
-    "text": "I grew up in a hierarchical society where decisions were traditionally made by my father, my uncles, and other elders; I was far down that line and never expected to make major decisions about my life or anyone else’s. From 2006 to 2016, I lived in Kerr Sering, The Gambia, where I completed a long apprenticeship as an automotive mechanic, learning to rebuild engines and diagnose complex vehicle issues.\nIn 2016, I moved to Palermo, Italy, where I spent two years apprenticing as a plumber, construction painter, and building electrician."
+    "objectID": "history/education.html#technical-apprenticeships-trade-skills",
+    "href": "history/education.html#technical-apprenticeships-trade-skills",
+    "title": "Education",
+    "section": "Technical Apprenticeships & Trade Skills",
+    "text": "Technical Apprenticeships & Trade Skills\nBefore pursuing traditional higher education, I spent over a decade gaining hands-on, practical engineering and construction experience through various trade apprenticeships.\n\nBuilding Electrician (2016 – 2018 | Palermo, Italy): Acquired a strong foundation in electrical construction and lighting fixture installation under the mentorship of Giuseppe Bruccolieri.\nConstruction Painter (2016 – 2018 | Palermo, Italy): Acquired knowledge in painting buildings and color mixing.\nPlumber (2016 – 2018 | Palermo, Italy): Gained comprehensive expertise in resolving plumbing issues, replacing valves, and testing restored systems.\nAutomotive Mechanic (2006 – 2016 | Kerr Sering, The Gambia): Completed a six-year apprenticeship focused on diagnosing and repairing vehicles, performing routine maintenance, rebuilding engines, and conducting wheel alignments."
   },
   {
-    "objectID": "history/life-journey.html#early-years-and-trade-mastery",
-    "href": "history/life-journey.html#early-years-and-trade-mastery",
-    "title": "Life’s Journey",
-    "section": "",
-    "text": "I grew up in a hierarchical society where decisions were traditionally made by my father, my uncles, and other elders; I was far down that line and never expected to make major decisions about my life or anyone else’s. From 2006 to 2016, I lived in Kerr Sering, The Gambia, where I completed a long apprenticeship as an automotive mechanic, learning to rebuild engines and diagnose complex vehicle issues.\nIn 2016, I moved to Palermo, Italy, where I spent two years apprenticing as a plumber, construction painter, and building electrician."
-  },
-  {
-    "objectID": "history/life-journey.html#a-turning-point-in-italy",
-    "href": "history/life-journey.html#a-turning-point-in-italy",
-    "title": "Life’s Journey",
-    "section": "A Turning Point in Italy",
-    "text": "A Turning Point in Italy\nWhen I was eighteen years old in Italy, I experienced a profound shift. A woman approached me with government documents and told me I needed to sign them because I was now an adult. I had no idea what they contained, but in that moment, I felt a surge of power mixed with a powerful fear. I realized that with a single stroke of a pen, I could alter or even destroy my life. It was a novel and unsettling feeling that marked the beginning of my independence."
-  },
-  {
-    "objectID": "history/life-journey.html#discovering-the-liberal-arts",
-    "href": "history/life-journey.html#discovering-the-liberal-arts",
-    "title": "Life’s Journey",
-    "section": "Discovering the Liberal Arts",
-    "text": "Discovering the Liberal Arts\nAfter earning my IB Diploma at the United World College Adriatic in Italy, I transitioned to The College of Idaho. On the first day of my Civilization class, Dr. Snyder-Reinke taught us that the liberal arts teach human beings how to be free. I placed that idea at the forefront of everything I do in college. I vowed to learn for the sake of learning—not just to satisfy a syllabus or chase a grade. If I truly understand a topic, I should be able to answer any question posed about it; if I cannot, it is back to the drawing board.\nThis approach has transformed my worldview. For instance, I used to scoff at the American taboo of discussing politics at the dinner table. However, after studying the American Civil War and learning the tragic, complex social dynamics of American history, I now understand why people avoid it, and I advise against it myself. I may not have received the highest grade in that class, but I received exactly what I needed from it: a deeper understanding of society."
-  },
-  {
-    "objectID": "history/life-journey.html#the-pursuit-of-depth",
-    "href": "history/life-journey.html#the-pursuit-of-depth",
-    "title": "Life’s Journey",
-    "section": "The Pursuit of Depth",
-    "text": "The Pursuit of Depth\nMy motivation to pursue graduate school crystallized during my summer 2023 physics research. My teammate and I were working when Dr. Jim Dull stopped by to say hello. We ended up talking for half an hour entirely about units of measurement—centimeters, meters, miles, and furlongs. It was one of the best conversations of my life. Afterward, I realized there was no topic in the world I could speak about with that same incredible depth of understanding. I knew then that an undergraduate degree would not be enough; I needed to attend graduate school.\nThat realization also brought a moment of painful humility. I remembered that as a freshman, out of pure ignorance, I had laughed at a communication professor and told him I didn’t need his class. Realizing how incredibly difficult it is just to survive an undergraduate semester, let alone earn a doctoral degree, I wept at the thought that I had insulted a man’s hard work, sweat, and tears. Since that day, I have vowed never again to speak ignorantly about something I do not understand."
-  },
-  {
-    "objectID": "history/life-journey.html#looking-forward",
-    "href": "history/life-journey.html#looking-forward",
-    "title": "Life’s Journey",
-    "section": "Looking Forward",
-    "text": "Looking Forward\nAs I look past graduation, my primary goal (Plan A) is to attend graduate school to achieve the depth of knowledge I deeply admire in my mentors. My immediate secondary goal (Plan B) is securing a role in industry that will allow me to support myself and maintain my residency in the United States post-graduation."
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "Abdullah Korra\nBS in Math-Physics | Scientific Computing, Astronomy, and Robotics\nCaldwell, Idaho\nEmail\nGitHub · LinkedIn\n\n\n\nOpen PDF in new tab"
-  },
-  {
-    "objectID": "statement.html",
-    "href": "statement.html",
+    "objectID": "history/statement.html",
+    "href": "history/statement.html",
     "title": "Statement",
     "section": "",
     "text": "This page is adapted from the personal statement uploaded with this portfolio starter. It works well as a statement page for the BSU computational PhD application context and can also serve as a deeper motivation page on the portfolio site. The linked PDF is your original uploaded file.\n\nDownload statement PDF\n\n\n\nMy long-term goal is to build robots that are actually suited to the needs of the communities I care about. That goal begins with understanding the systems those machines depend on, including the computational and physical foundations behind semiconductor devices and control systems.\nI grew up in Tambasansang, a small farming village in The Gambia. My early fascination with machines began through hands-on work around engines and electronics. Later, studying physics and mathematics gave me a deeper way to understand those systems instead of only using them.\n\n\n\nAt The College of Idaho, I worked in astronomy research and software-centered scientific workflows. That experience pushed me toward careful computational work, reproducible analysis, and the experimental side of physics. It also showed me how much I enjoy building technical tools that other people can actually use.\n\n\n\nMy interest in robotics is practical. I want to build affordable tools that reduce physical burden and expand opportunity in communities where cost and context matter. I can teach myself a great deal about prototyping, programming, and system integration, but I also want deeper formal training in the modeling and simulation tools needed to move from system-level design to a stronger understanding of the underlying components.\n\n\n\nA computational PhD path fits because I want stronger preparation in computational modeling, simulation, and scientific problem solving. That training would help me connect robotics, physical systems, and the deeper design logic behind technologies that must work under real constraints rather than ideal ones."
   },
   {
-    "objectID": "statement.html#personal-history.",
-    "href": "statement.html#personal-history.",
+    "objectID": "history/statement.html#personal-history.",
+    "href": "history/statement.html#personal-history.",
     "title": "Statement",
     "section": "",
     "text": "This page is adapted from the personal statement uploaded with this portfolio starter. It works well as a statement page for the BSU computational PhD application context and can also serve as a deeper motivation page on the portfolio site. The linked PDF is your original uploaded file.\n\nDownload statement PDF\n\n\n\nMy long-term goal is to build robots that are actually suited to the needs of the communities I care about. That goal begins with understanding the systems those machines depend on, including the computational and physical foundations behind semiconductor devices and control systems.\nI grew up in Tambasansang, a small farming village in The Gambia. My early fascination with machines began through hands-on work around engines and electronics. Later, studying physics and mathematics gave me a deeper way to understand those systems instead of only using them.\n\n\n\nAt The College of Idaho, I worked in astronomy research and software-centered scientific workflows. That experience pushed me toward careful computational work, reproducible analysis, and the experimental side of physics. It also showed me how much I enjoy building technical tools that other people can actually use.\n\n\n\nMy interest in robotics is practical. I want to build affordable tools that reduce physical burden and expand opportunity in communities where cost and context matter. I can teach myself a great deal about prototyping, programming, and system integration, but I also want deeper formal training in the modeling and simulation tools needed to move from system-level design to a stronger understanding of the underlying components.\n\n\n\nA computational PhD path fits because I want stronger preparation in computational modeling, simulation, and scientific problem solving. That training would help me connect robotics, physical systems, and the deeper design logic behind technologies that must work under real constraints rather than ideal ones."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "This page highlights work in astronomy software, robotics, and machine learning. The goal is to show range without losing focus.\n\n\n\nA Python and Jupyter-based astronomy workflow for reducing KOSMOS multi-slit spectroscopic data. The project is built around an interactive workflow that helps move from raw observations to final science products with cleaner user interaction than a loose notebook sequence.\n\nJupyter Scientific Computing Data Reduction Astronomy\n\n\n\nWhy it matters. This is the most distinctive project on the site because it combines domain knowledge, tool-building, and user experience. It reads as original technical work rather than a standard class assignment.\nWhat it shows. - Software design for research workflows - Scientific computing in Python - Reproducible analysis habits - Communication of a technical process to users\nGitHub repository\n\n\n\n\n\nAn affordable agricultural robotics concept focused on embedded control, motion planning, and practical design under real-world constraints. The long-term motivation is to build technology that is actually usable in resource-constrained farming communities.\n\nArduino Raspberry Pi Embedded Control Robotics\n\n\nWhy it matters. This project shows that my technical interests are not limited to pure analysis. I also build around hardware, sensors, control logic, and physical systems.\nWhat it shows. - Systems thinking - Rapid prototyping - Practical engineering tradeoffs - Strong motivation for applied problem solving\n\n\n\n\n\nA prose-first Quarto report on customer churn prediction using Python, pandas, scikit-learn, classification models, cross-validation, and ROC-AUC. The writeup is designed to read like a professional analysis memo rather than a homework notebook.\n\nscikit-learn Classification Cross-Validation ROC-AUC Git\n\nWhy it matters. This is the most recruiter-friendly project on the site. It directly mirrors the language used in many entry-level data science and ML job descriptions.\nWhat it shows. - Exploratory data analysis - Feature engineering and preprocessing - Logistic regression and tree-based modeling - Performance analysis with clean narrative structure\nOpen the report\n\n\n\n\nThese materials show the research side of the astronomy work and make the project feel more complete. They also show that the work can be explained clearly in a public presentation format.\n\n\n\n\n\nFocuses on the KOSMOS reduction pipeline, science motivation, RV analysis, and validation against APOGEE values.\nOpen PDF\n\n\n\n\n\n\nA revised poster version that foregrounds pipeline construction, extracted spectra, wavelength calibration, and future validation work.\nOpen PDF\n\n\n\n\n\nFuture poster or presentation\n\n\n\n\nReserved for another poster, slide deck, or technical presentation.\n\n\n\n\n\n\n\nReserved for a second polished report centered on regression, RMSE, and model comparison. A strong follow-up option is a house-price or energy-usage problem with clearer continuous outcomes."
-  },
-  {
-    "objectID": "projects.html#selected-projects",
-    "href": "projects.html#selected-projects",
-    "title": "Projects",
-    "section": "",
-    "text": "This page highlights work in astronomy software, robotics, and machine learning. The goal is to show range without losing focus.\n\n\n\nA Python and Jupyter-based astronomy workflow for reducing KOSMOS multi-slit spectroscopic data. The project is built around an interactive workflow that helps move from raw observations to final science products with cleaner user interaction than a loose notebook sequence.\n\nJupyter Scientific Computing Data Reduction Astronomy\n\n\n\nWhy it matters. This is the most distinctive project on the site because it combines domain knowledge, tool-building, and user experience. It reads as original technical work rather than a standard class assignment.\nWhat it shows. - Software design for research workflows - Scientific computing in Python - Reproducible analysis habits - Communication of a technical process to users\nGitHub repository\n\n\n\n\n\nAn affordable agricultural robotics concept focused on embedded control, motion planning, and practical design under real-world constraints. The long-term motivation is to build technology that is actually usable in resource-constrained farming communities.\n\nArduino Raspberry Pi Embedded Control Robotics\n\n\nWhy it matters. This project shows that my technical interests are not limited to pure analysis. I also build around hardware, sensors, control logic, and physical systems.\nWhat it shows. - Systems thinking - Rapid prototyping - Practical engineering tradeoffs - Strong motivation for applied problem solving\n\n\n\n\n\nA prose-first Quarto report on customer churn prediction using Python, pandas, scikit-learn, classification models, cross-validation, and ROC-AUC. The writeup is designed to read like a professional analysis memo rather than a homework notebook.\n\nscikit-learn Classification Cross-Validation ROC-AUC Git\n\nWhy it matters. This is the most recruiter-friendly project on the site. It directly mirrors the language used in many entry-level data science and ML job descriptions.\nWhat it shows. - Exploratory data analysis - Feature engineering and preprocessing - Logistic regression and tree-based modeling - Performance analysis with clean narrative structure\nOpen the report\n\n\n\n\nThese materials show the research side of the astronomy work and make the project feel more complete. They also show that the work can be explained clearly in a public presentation format.\n\n\n\n\n\nFocuses on the KOSMOS reduction pipeline, science motivation, RV analysis, and validation against APOGEE values.\nOpen PDF\n\n\n\n\n\n\nA revised poster version that foregrounds pipeline construction, extracted spectra, wavelength calibration, and future validation work.\nOpen PDF\n\n\n\n\n\nFuture poster or presentation\n\n\n\n\nReserved for another poster, slide deck, or technical presentation.\n\n\n\n\n\n\n\nReserved for a second polished report centered on regression, RMSE, and model comparison. A strong follow-up option is a house-price or energy-usage problem with clearer continuous outcomes."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "Portfolio\n\n\n\nBS in Math-Physics | Scientific Computing, Astronomy, and Robotics"
-  },
-  {
-    "objectID": "index.html#scientific-computing-astronomy-software-and-reproducible-data-analysis",
-    "href": "index.html#scientific-computing-astronomy-software-and-reproducible-data-analysis",
-    "title": "Home",
-    "section": "Scientific computing, astronomy software, and reproducible data analysis",
-    "text": "Scientific computing, astronomy software, and reproducible data analysis\nI am Abdullah Korra, a Math-Physics student at The College of Idaho with interests in scientific computing, machine learning, astronomy data reduction, and robotics. My work centers on building careful, usable tools in Python, pandas, scikit-learn, and version-controlled, reproducible workflows. I am especially interested in projects that connect computation, physical systems, and real-world problem solving.\n\nScientific Python Machine Learning Astronomy Data Reduction Robotics Reproducible Analysis\n\n\n\nResume page GitHub LinkedIn"
-  },
-  {
-    "objectID": "index.html#what-i-do",
-    "href": "index.html#what-i-do",
-    "title": "Home",
-    "section": "What I do",
-    "text": "What I do\n\n\nBuild reproducible analysis\nI work in Python with clear project structure, careful data preparation, and readable outputs intended for both technical and non-technical readers.\n\n\nConnect computation to physical systems\nMy projects sit at the intersection of data, instrumentation, robotics, and scientific research.\n\n\nCommunicate results cleanly\nI prefer prose-forward reporting, clean figures, and practical conclusions over notebook dumps and walls of code."
-  },
-  {
-    "objectID": "index.html#featured-projects",
-    "href": "index.html#featured-projects",
-    "title": "Home",
-    "section": "Featured Projects",
-    "text": "Featured Projects\n\n\n\nHero project\n\n\nKOSMOS Multi-Slit Data Reduction Pipeline\nA Jupyter-based astronomy software pipeline for KOSMOS multi-slit spectroscopic data reduction, built to support an interactive workflow from raw observations to final science products.\n\nJupyter Scientific Computing GUI Workflow Astronomy\n\n\nProject details · GitHub repo\n\n\n\n\n\nSidekick project\n\n\nAgribot\nA low-cost robotics project focused on agricultural automation, embedded control, and practical design for resource-constrained communities.\n\nArduino Raspberry Pi Embedded Systems Prototyping\n\n\nProject details\n\n\n\n\n\nSample analysis\n\n\nCustomer Churn Modeling\nA sample machine learning report focused on classification, feature engineering, cross-validation, ROC-AUC, and recruiter-friendly communication.\n\nscikit-learn Classification Cross-Validation ROC-AUC\n\n\nLive report\n\n\n\n\n\nFuture slot\n\n\nRegression project\nReserved for a second polished project that highlights regression, RMSE, and model selection.\n\nRMSE Model Selection"
-  },
-  {
-    "objectID": "index.html#posters-presentations",
-    "href": "index.html#posters-presentations",
-    "title": "Home",
-    "section": "Posters & Presentations",
-    "text": "Posters & Presentations\nA growing archive of poster work, conference-ready visuals, and research communication materials.\n\n\n\n\nReducing Observational Astronomy Time Costs with Multi-Slit Spectrographs\nA poster presentation on the KOSMOS pipeline, multi-slit efficiency, RV validation, and the role of better reduction workflows in observational astronomy.\nOpen PDF\n\n\n\n\n\nFinal Multi-Slit Poster\nA revised poster version with a stronger emphasis on pipeline building, extracted spectra, wavelength calibration, and future validation work.\nOpen PDF\n\n\n\n\n\nFuture poster or talk\n\n\n\nFuture Presentation Slot\nReserved for another conference poster, technical talk, or research presentation."
-  },
-  {
-    "objectID": "index.html#beyond-coursework",
-    "href": "index.html#beyond-coursework",
-    "title": "Home",
-    "section": "Beyond Coursework",
-    "text": "Beyond Coursework\nThese details stay lower on the page on purpose. They add some personal context without taking attention away from the technical work at the top of the site.\n\n\nSoccer\nA long-running interest that keeps me competitive, collaborative, and comfortable working as part of a team.\n\n\n3D art\nA place to explore form, iteration, and visual design in a more creative setting.\n\n\nOutdoor activities\nTime outdoors helps me reset, observe, and stay connected to the physical environments that inspire a lot of my curiosity.\n\n\nCeramics and craft work\nHands-on making matters to me. Craft work sharpens patience, surface awareness, and care for how an object is built and finished."
-  },
-  {
-    "objectID": "index.html#quick-links",
-    "href": "index.html#quick-links",
-    "title": "Home",
-    "section": "Quick links",
-    "text": "Quick links\n\nProjects\nSample analysis\nResume\nStatement\nContact"
   },
   {
     "objectID": "analysis/telco-churn-report.html",
@@ -287,88 +175,151 @@
     "text": "Conclusion\nThis project shows a complete and readable classification workflow:\n\nstart with a clear prediction question,\nperform targeted exploratory analysis,\nbuild a preprocessing pipeline for mixed data,\ncompare models with cross-validation,\nevaluate test-set performance with ROC-AUC and threshold-aware metrics,\nclose with decision-oriented interpretation rather than code commentary.\n\nFor a stronger final version, I would add modest hyperparameter tuning, feature importance or coefficient interpretation, and a short section on limitations such as missing behavioral variables or possible temporal leakage concerns."
   },
   {
-    "objectID": "history/statement.html",
-    "href": "history/statement.html",
-    "title": "Statement",
-    "section": "",
-    "text": "This page is adapted from the personal statement uploaded with this portfolio starter. It works well as a statement page for the BSU computational PhD application context and can also serve as a deeper motivation page on the portfolio site. The linked PDF is your original uploaded file.\n\nDownload statement PDF\n\n\n\nMy long-term goal is to build robots that are actually suited to the needs of the communities I care about. That goal begins with understanding the systems those machines depend on, including the computational and physical foundations behind semiconductor devices and control systems.\nI grew up in Tambasansang, a small farming village in The Gambia. My early fascination with machines began through hands-on work around engines and electronics. Later, studying physics and mathematics gave me a deeper way to understand those systems instead of only using them.\n\n\n\nAt The College of Idaho, I worked in astronomy research and software-centered scientific workflows. That experience pushed me toward careful computational work, reproducible analysis, and the experimental side of physics. It also showed me how much I enjoy building technical tools that other people can actually use.\n\n\n\nMy interest in robotics is practical. I want to build affordable tools that reduce physical burden and expand opportunity in communities where cost and context matter. I can teach myself a great deal about prototyping, programming, and system integration, but I also want deeper formal training in the modeling and simulation tools needed to move from system-level design to a stronger understanding of the underlying components.\n\n\n\nA computational PhD path fits because I want stronger preparation in computational modeling, simulation, and scientific problem solving. That training would help me connect robotics, physical systems, and the deeper design logic behind technologies that must work under real constraints rather than ideal ones."
-  },
-  {
-    "objectID": "history/statement.html#personal-history.",
-    "href": "history/statement.html#personal-history.",
-    "title": "Statement",
-    "section": "",
-    "text": "This page is adapted from the personal statement uploaded with this portfolio starter. It works well as a statement page for the BSU computational PhD application context and can also serve as a deeper motivation page on the portfolio site. The linked PDF is your original uploaded file.\n\nDownload statement PDF\n\n\n\nMy long-term goal is to build robots that are actually suited to the needs of the communities I care about. That goal begins with understanding the systems those machines depend on, including the computational and physical foundations behind semiconductor devices and control systems.\nI grew up in Tambasansang, a small farming village in The Gambia. My early fascination with machines began through hands-on work around engines and electronics. Later, studying physics and mathematics gave me a deeper way to understand those systems instead of only using them.\n\n\n\nAt The College of Idaho, I worked in astronomy research and software-centered scientific workflows. That experience pushed me toward careful computational work, reproducible analysis, and the experimental side of physics. It also showed me how much I enjoy building technical tools that other people can actually use.\n\n\n\nMy interest in robotics is practical. I want to build affordable tools that reduce physical burden and expand opportunity in communities where cost and context matter. I can teach myself a great deal about prototyping, programming, and system integration, but I also want deeper formal training in the modeling and simulation tools needed to move from system-level design to a stronger understanding of the underlying components.\n\n\n\nA computational PhD path fits because I want stronger preparation in computational modeling, simulation, and scientific problem solving. That training would help me connect robotics, physical systems, and the deeper design logic behind technologies that must work under real constraints rather than ideal ones."
-  },
-  {
-    "objectID": "history/education.html",
-    "href": "history/education.html",
-    "title": "Education",
-    "section": "",
-    "text": "Bachelor of Science in Math-Physics (Major) Specializations in Pre-engineering and Data Science\nAugust 2022 – Present | Caldwell, Idaho, United States\nMy undergraduate experience is rooted in a Liberal Arts education, which is designed to develop critical thinking, creativity, and problem-solving abilities. By combining this foundation with general mathematics and physics, I am gaining the comprehensive understanding necessary for a career in engineering. Additionally, my specialization in data science equips me with the skills to analyze and interpret complex data across various fields. I am currently studying here as a Shelby M.C. Davis Scholar.\n\n\n\nInternational Baccalaureate (IB) Diploma September 2019 – April 2021 | Duino, Italy\nAttending UWCAD on a prestigious scholarship provided me with a rigorous education focused on intercultural understanding and social responsibility. The multicultural environment taught me to communicate effectively, build bridges across cultural differences, and work collaboratively in diverse groups.\n\n\n\nOpen PDF in new tab"
-  },
-  {
-    "objectID": "history/education.html#formal-education",
-    "href": "history/education.html#formal-education",
-    "title": "Education",
-    "section": "",
-    "text": "Bachelor of Science in Math-Physics (Major) Specializations in Pre-engineering and Data Science\nAugust 2022 – Present | Caldwell, Idaho, United States\nMy undergraduate experience is rooted in a Liberal Arts education, which is designed to develop critical thinking, creativity, and problem-solving abilities. By combining this foundation with general mathematics and physics, I am gaining the comprehensive understanding necessary for a career in engineering. Additionally, my specialization in data science equips me with the skills to analyze and interpret complex data across various fields. I am currently studying here as a Shelby M.C. Davis Scholar.\n\n\n\nInternational Baccalaureate (IB) Diploma September 2019 – April 2021 | Duino, Italy\nAttending UWCAD on a prestigious scholarship provided me with a rigorous education focused on intercultural understanding and social responsibility. The multicultural environment taught me to communicate effectively, build bridges across cultural differences, and work collaboratively in diverse groups.\n\n\n\nOpen PDF in new tab"
-  },
-  {
-    "objectID": "history/education.html#technical-apprenticeships-trade-skills",
-    "href": "history/education.html#technical-apprenticeships-trade-skills",
-    "title": "Education",
-    "section": "Technical Apprenticeships & Trade Skills",
-    "text": "Technical Apprenticeships & Trade Skills\nBefore pursuing traditional higher education, I spent over a decade gaining hands-on, practical engineering and construction experience through various trade apprenticeships.\n\nBuilding Electrician (2016 – 2018 | Palermo, Italy): Acquired a strong foundation in electrical construction and lighting fixture installation under the mentorship of Giuseppe Bruccolieri.\nConstruction Painter (2016 – 2018 | Palermo, Italy): Acquired knowledge in painting buildings and color mixing.\nPlumber (2016 – 2018 | Palermo, Italy): Gained comprehensive expertise in resolving plumbing issues, replacing valves, and testing restored systems.\nAutomotive Mechanic (2006 – 2016 | Kerr Sering, The Gambia): Completed a six-year apprenticeship focused on diagnosing and repairing vehicles, performing routine maintenance, rebuilding engines, and conducting wheel alignments."
-  },
-  {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Home",
     "section": "",
     "text": "Portfolio\n\n\n\nBS in Math-Physics | Scientific Computing, Astronomy, and Robotics"
   },
   {
-    "objectID": "projects/index.html#scientific-computing-astronomy-software-and-reproducible-data-analysis",
-    "href": "projects/index.html#scientific-computing-astronomy-software-and-reproducible-data-analysis",
+    "objectID": "index.html#scientific-computing-astronomy-software-and-reproducible-data-analysis",
+    "href": "index.html#scientific-computing-astronomy-software-and-reproducible-data-analysis",
     "title": "Home",
     "section": "Scientific computing, astronomy software, and reproducible data analysis",
     "text": "Scientific computing, astronomy software, and reproducible data analysis\nI am Abdullah Korra, a Math-Physics student at The College of Idaho with interests in scientific computing, machine learning, astronomy data reduction, and robotics. My work centers on building careful, usable tools in Python, pandas, scikit-learn, and version-controlled, reproducible workflows. I am especially interested in projects that connect computation, physical systems, and real-world problem solving.\n\nScientific Python Machine Learning Astronomy Data Reduction Robotics Reproducible Analysis\n\n\n\nResume page GitHub LinkedIn"
   },
   {
-    "objectID": "projects/index.html#what-i-do",
-    "href": "projects/index.html#what-i-do",
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
     "title": "Home",
     "section": "What I do",
     "text": "What I do\n\n\nBuild reproducible analysis\nI work in Python with clear project structure, careful data preparation, and readable outputs intended for both technical and non-technical readers.\n\n\nConnect computation to physical systems\nMy projects sit at the intersection of data, instrumentation, robotics, and scientific research.\n\n\nCommunicate results cleanly\nI prefer prose-forward reporting, clean figures, and practical conclusions over notebook dumps and walls of code."
   },
   {
-    "objectID": "projects/index.html#featured-projects",
-    "href": "projects/index.html#featured-projects",
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
     "title": "Home",
     "section": "Featured Projects",
     "text": "Featured Projects\n\n\n\nHero project\n\n\nKOSMOS Multi-Slit Data Reduction Pipeline\nA Jupyter-based astronomy software pipeline for KOSMOS multi-slit spectroscopic data reduction, built to support an interactive workflow from raw observations to final science products.\n\nJupyter Scientific Computing GUI Workflow Astronomy\n\n\nProject details · GitHub repo\n\n\n\n\n\nSidekick project\n\n\nAgribot\nA low-cost robotics project focused on agricultural automation, embedded control, and practical design for resource-constrained communities.\n\nArduino Raspberry Pi Embedded Systems Prototyping\n\n\nProject details\n\n\n\n\n\nSample analysis\n\n\nCustomer Churn Modeling\nA sample machine learning report focused on classification, feature engineering, cross-validation, ROC-AUC, and recruiter-friendly communication.\n\nscikit-learn Classification Cross-Validation ROC-AUC\n\n\nLive report\n\n\n\n\n\nFuture slot\n\n\nRegression project\nReserved for a second polished project that highlights regression, RMSE, and model selection.\n\nRMSE Model Selection"
   },
   {
-    "objectID": "projects/index.html#posters-presentations",
-    "href": "projects/index.html#posters-presentations",
+    "objectID": "index.html#posters-presentations",
+    "href": "index.html#posters-presentations",
     "title": "Home",
     "section": "Posters & Presentations",
     "text": "Posters & Presentations\nA growing archive of poster work, conference-ready visuals, and research communication materials.\n\n\n\n\nReducing Observational Astronomy Time Costs with Multi-Slit Spectrographs\nA poster presentation on the KOSMOS pipeline, multi-slit efficiency, RV validation, and the role of better reduction workflows in observational astronomy.\nOpen PDF\n\n\n\n\n\nFinal Multi-Slit Poster\nA revised poster version with a stronger emphasis on pipeline building, extracted spectra, wavelength calibration, and future validation work.\nOpen PDF\n\n\n\n\n\nFuture poster or talk\n\n\n\nFuture Presentation Slot\nReserved for another conference poster, technical talk, or research presentation."
   },
   {
-    "objectID": "projects/index.html#beyond-coursework",
-    "href": "projects/index.html#beyond-coursework",
+    "objectID": "index.html#beyond-coursework",
+    "href": "index.html#beyond-coursework",
     "title": "Home",
     "section": "Beyond Coursework",
     "text": "Beyond Coursework\nThese details stay lower on the page on purpose. They add some personal context without taking attention away from the technical work at the top of the site.\n\n\nSoccer\nA long-running interest that keeps me competitive, collaborative, and comfortable working as part of a team.\n\n\n3D art\nA place to explore form, iteration, and visual design in a more creative setting.\n\n\nOutdoor activities\nTime outdoors helps me reset, observe, and stay connected to the physical environments that inspire a lot of my curiosity.\n\n\nCeramics and craft work\nHands-on making matters to me. Craft work sharpens patience, surface awareness, and care for how an object is built and finished."
   },
   {
-    "objectID": "projects/index.html#quick-links",
-    "href": "projects/index.html#quick-links",
+    "objectID": "index.html#quick-links",
+    "href": "index.html#quick-links",
     "title": "Home",
     "section": "Quick links",
     "text": "Quick links\n\nProjects\nSample analysis\nResume\nStatement\nContact"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This page highlights work in astronomy software, robotics, and machine learning. The goal is to show range without losing focus.\n\n\n\nA Python and Jupyter-based astronomy workflow for reducing KOSMOS multi-slit spectroscopic data. The project is built around an interactive workflow that helps move from raw observations to final science products with cleaner user interaction than a loose notebook sequence.\n\nJupyter Scientific Computing Data Reduction Astronomy\n\n\n\nWhy it matters. This is the most distinctive project on the site because it combines domain knowledge, tool-building, and user experience. It reads as original technical work rather than a standard class assignment.\nWhat it shows. - Software design for research workflows - Scientific computing in Python - Reproducible analysis habits - Communication of a technical process to users\nGitHub repository\n\n\n\n\n\nAn affordable agricultural robotics concept focused on embedded control, motion planning, and practical design under real-world constraints. The long-term motivation is to build technology that is actually usable in resource-constrained farming communities.\n\nArduino Raspberry Pi Embedded Control Robotics\n\n\nWhy it matters. This project shows that my technical interests are not limited to pure analysis. I also build around hardware, sensors, control logic, and physical systems.\nWhat it shows. - Systems thinking - Rapid prototyping - Practical engineering tradeoffs - Strong motivation for applied problem solving\n\n\n\n\n\nA prose-first Quarto report on customer churn prediction using Python, pandas, scikit-learn, classification models, cross-validation, and ROC-AUC. The writeup is designed to read like a professional analysis memo rather than a homework notebook.\n\nscikit-learn Classification Cross-Validation ROC-AUC Git\n\nWhy it matters. This is the most recruiter-friendly project on the site. It directly mirrors the language used in many entry-level data science and ML job descriptions.\nWhat it shows. - Exploratory data analysis - Feature engineering and preprocessing - Logistic regression and tree-based modeling - Performance analysis with clean narrative structure\nOpen the report\n\n\n\n\nThese materials show the research side of the astronomy work and make the project feel more complete. They also show that the work can be explained clearly in a public presentation format.\n\n\n\n\n\nFocuses on the KOSMOS reduction pipeline, science motivation, RV analysis, and validation against APOGEE values.\nOpen PDF\n\n\n\n\n\n\nA revised poster version that foregrounds pipeline construction, extracted spectra, wavelength calibration, and future validation work.\nOpen PDF\n\n\n\n\n\nFuture poster or presentation\n\n\n\n\nReserved for another poster, slide deck, or technical presentation.\n\n\n\n\n\n\n\nReserved for a second polished report centered on regression, RMSE, and model comparison. A strong follow-up option is a house-price or energy-usage problem with clearer continuous outcomes."
+  },
+  {
+    "objectID": "projects.html#selected-projects",
+    "href": "projects.html#selected-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "This page highlights work in astronomy software, robotics, and machine learning. The goal is to show range without losing focus.\n\n\n\nA Python and Jupyter-based astronomy workflow for reducing KOSMOS multi-slit spectroscopic data. The project is built around an interactive workflow that helps move from raw observations to final science products with cleaner user interaction than a loose notebook sequence.\n\nJupyter Scientific Computing Data Reduction Astronomy\n\n\n\nWhy it matters. This is the most distinctive project on the site because it combines domain knowledge, tool-building, and user experience. It reads as original technical work rather than a standard class assignment.\nWhat it shows. - Software design for research workflows - Scientific computing in Python - Reproducible analysis habits - Communication of a technical process to users\nGitHub repository\n\n\n\n\n\nAn affordable agricultural robotics concept focused on embedded control, motion planning, and practical design under real-world constraints. The long-term motivation is to build technology that is actually usable in resource-constrained farming communities.\n\nArduino Raspberry Pi Embedded Control Robotics\n\n\nWhy it matters. This project shows that my technical interests are not limited to pure analysis. I also build around hardware, sensors, control logic, and physical systems.\nWhat it shows. - Systems thinking - Rapid prototyping - Practical engineering tradeoffs - Strong motivation for applied problem solving\n\n\n\n\n\nA prose-first Quarto report on customer churn prediction using Python, pandas, scikit-learn, classification models, cross-validation, and ROC-AUC. The writeup is designed to read like a professional analysis memo rather than a homework notebook.\n\nscikit-learn Classification Cross-Validation ROC-AUC Git\n\nWhy it matters. This is the most recruiter-friendly project on the site. It directly mirrors the language used in many entry-level data science and ML job descriptions.\nWhat it shows. - Exploratory data analysis - Feature engineering and preprocessing - Logistic regression and tree-based modeling - Performance analysis with clean narrative structure\nOpen the report\n\n\n\n\nThese materials show the research side of the astronomy work and make the project feel more complete. They also show that the work can be explained clearly in a public presentation format.\n\n\n\n\n\nFocuses on the KOSMOS reduction pipeline, science motivation, RV analysis, and validation against APOGEE values.\nOpen PDF\n\n\n\n\n\n\nA revised poster version that foregrounds pipeline construction, extracted spectra, wavelength calibration, and future validation work.\nOpen PDF\n\n\n\n\n\nFuture poster or presentation\n\n\n\n\nReserved for another poster, slide deck, or technical presentation.\n\n\n\n\n\n\n\nReserved for a second polished report centered on regression, RMSE, and model comparison. A strong follow-up option is a house-price or energy-usage problem with clearer continuous outcomes."
+  },
+  {
+    "objectID": "statement.html",
+    "href": "statement.html",
+    "title": "Statement",
+    "section": "",
+    "text": "This page is adapted from the personal statement uploaded with this portfolio starter. It works well as a statement page for the BSU computational PhD application context and can also serve as a deeper motivation page on the portfolio site. The linked PDF is your original uploaded file.\n\nDownload statement PDF\n\n\n\nMy long-term goal is to build robots that are actually suited to the needs of the communities I care about. That goal begins with understanding the systems those machines depend on, including the computational and physical foundations behind semiconductor devices and control systems.\nI grew up in Tambasansang, a small farming village in The Gambia. My early fascination with machines began through hands-on work around engines and electronics. Later, studying physics and mathematics gave me a deeper way to understand those systems instead of only using them.\n\n\n\nAt The College of Idaho, I worked in astronomy research and software-centered scientific workflows. That experience pushed me toward careful computational work, reproducible analysis, and the experimental side of physics. It also showed me how much I enjoy building technical tools that other people can actually use.\n\n\n\nMy interest in robotics is practical. I want to build affordable tools that reduce physical burden and expand opportunity in communities where cost and context matter. I can teach myself a great deal about prototyping, programming, and system integration, but I also want deeper formal training in the modeling and simulation tools needed to move from system-level design to a stronger understanding of the underlying components.\n\n\n\nA computational PhD path fits because I want stronger preparation in computational modeling, simulation, and scientific problem solving. That training would help me connect robotics, physical systems, and the deeper design logic behind technologies that must work under real constraints rather than ideal ones."
+  },
+  {
+    "objectID": "statement.html#personal-history.",
+    "href": "statement.html#personal-history.",
+    "title": "Statement",
+    "section": "",
+    "text": "This page is adapted from the personal statement uploaded with this portfolio starter. It works well as a statement page for the BSU computational PhD application context and can also serve as a deeper motivation page on the portfolio site. The linked PDF is your original uploaded file.\n\nDownload statement PDF\n\n\n\nMy long-term goal is to build robots that are actually suited to the needs of the communities I care about. That goal begins with understanding the systems those machines depend on, including the computational and physical foundations behind semiconductor devices and control systems.\nI grew up in Tambasansang, a small farming village in The Gambia. My early fascination with machines began through hands-on work around engines and electronics. Later, studying physics and mathematics gave me a deeper way to understand those systems instead of only using them.\n\n\n\nAt The College of Idaho, I worked in astronomy research and software-centered scientific workflows. That experience pushed me toward careful computational work, reproducible analysis, and the experimental side of physics. It also showed me how much I enjoy building technical tools that other people can actually use.\n\n\n\nMy interest in robotics is practical. I want to build affordable tools that reduce physical burden and expand opportunity in communities where cost and context matter. I can teach myself a great deal about prototyping, programming, and system integration, but I also want deeper formal training in the modeling and simulation tools needed to move from system-level design to a stronger understanding of the underlying components.\n\n\n\nA computational PhD path fits because I want stronger preparation in computational modeling, simulation, and scientific problem solving. That training would help me connect robotics, physical systems, and the deeper design logic behind technologies that must work under real constraints rather than ideal ones."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Abdullah Korra\nBS in Math-Physics | Scientific Computing, Astronomy, and Robotics\nCaldwell, Idaho\nEmail\nGitHub · LinkedIn\n\n\n\nOpen PDF in new tab"
+  },
+  {
+    "objectID": "history/life-journey.html",
+    "href": "history/life-journey.html",
+    "title": "Life’s Journey",
+    "section": "",
+    "text": "I grew up in a hierarchical society where decisions were traditionally made by my father, my uncles, and other elders; I was far down that line and never expected to make major decisions about my life or anyone else’s. From 2006 to 2016, I lived in Kerr Sering, The Gambia, where I completed a long apprenticeship as an automotive mechanic, learning to rebuild engines and diagnose complex vehicle issues.\nIn 2016, I moved to Palermo, Italy, where I spent two years apprenticing as a plumber, construction painter, and building electrician."
+  },
+  {
+    "objectID": "history/life-journey.html#early-years-and-trade-mastery",
+    "href": "history/life-journey.html#early-years-and-trade-mastery",
+    "title": "Life’s Journey",
+    "section": "",
+    "text": "I grew up in a hierarchical society where decisions were traditionally made by my father, my uncles, and other elders; I was far down that line and never expected to make major decisions about my life or anyone else’s. From 2006 to 2016, I lived in Kerr Sering, The Gambia, where I completed a long apprenticeship as an automotive mechanic, learning to rebuild engines and diagnose complex vehicle issues.\nIn 2016, I moved to Palermo, Italy, where I spent two years apprenticing as a plumber, construction painter, and building electrician."
+  },
+  {
+    "objectID": "history/life-journey.html#a-turning-point-in-italy",
+    "href": "history/life-journey.html#a-turning-point-in-italy",
+    "title": "Life’s Journey",
+    "section": "A Turning Point in Italy",
+    "text": "A Turning Point in Italy\nWhen I was eighteen years old in Italy, I experienced a profound shift. A woman approached me with government documents and told me I needed to sign them because I was now an adult. I had no idea what they contained, but in that moment, I felt a surge of power mixed with a powerful fear. I realized that with a single stroke of a pen, I could alter or even destroy my life. It was a novel and unsettling feeling that marked the beginning of my independence."
+  },
+  {
+    "objectID": "history/life-journey.html#discovering-the-liberal-arts",
+    "href": "history/life-journey.html#discovering-the-liberal-arts",
+    "title": "Life’s Journey",
+    "section": "Discovering the Liberal Arts",
+    "text": "Discovering the Liberal Arts\nAfter earning my IB Diploma at the United World College Adriatic in Italy, I transitioned to The College of Idaho. On the first day of my Civilization class, Dr. Snyder-Reinke taught us that the liberal arts teach human beings how to be free. I placed that idea at the forefront of everything I do in college. I vowed to learn for the sake of learning—not just to satisfy a syllabus or chase a grade. If I truly understand a topic, I should be able to answer any question posed about it; if I cannot, it is back to the drawing board.\nThis approach has transformed my worldview. For instance, I used to scoff at the American taboo of discussing politics at the dinner table. However, after studying the American Civil War and learning the tragic, complex social dynamics of American history, I now understand why people avoid it, and I advise against it myself. I may not have received the highest grade in that class, but I received exactly what I needed from it: a deeper understanding of society."
+  },
+  {
+    "objectID": "history/life-journey.html#the-pursuit-of-depth",
+    "href": "history/life-journey.html#the-pursuit-of-depth",
+    "title": "Life’s Journey",
+    "section": "The Pursuit of Depth",
+    "text": "The Pursuit of Depth\nMy motivation to pursue graduate school crystallized during my summer 2023 physics research. My teammate and I were working when Dr. Jim Dull stopped by to say hello. We ended up talking for half an hour entirely about units of measurement—centimeters, meters, miles, and furlongs. It was one of the best conversations of my life. Afterward, I realized there was no topic in the world I could speak about with that same incredible depth of understanding. I knew then that an undergraduate degree would not be enough; I needed to attend graduate school.\nThat realization also brought a moment of painful humility. I remembered that as a freshman, out of pure ignorance, I had laughed at a communication professor and told him I didn’t need his class. Realizing how incredibly difficult it is just to survive an undergraduate semester, let alone earn a doctoral degree, I wept at the thought that I had insulted a man’s hard work, sweat, and tears. Since that day, I have vowed never again to speak ignorantly about something I do not understand."
+  },
+  {
+    "objectID": "history/life-journey.html#looking-forward",
+    "href": "history/life-journey.html#looking-forward",
+    "title": "Life’s Journey",
+    "section": "Looking Forward",
+    "text": "Looking Forward\nAs I look past graduation, my primary goal (Plan A) is to attend graduate school to achieve the depth of knowledge I deeply admire in my mentors. My immediate secondary goal (Plan B) is securing a role in industry that will allow me to support myself and maintain my residency in the United States post-graduation."
+  },
+  {
+    "objectID": "projects/projects.html",
+    "href": "projects/projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This page highlights work in astronomy software, robotics, and machine learning. The goal is to show range without losing focus.\n\n\n\nA Python and Jupyter-based astronomy workflow for reducing KOSMOS multi-slit spectroscopic data. The project is built around an interactive workflow that helps move from raw observations to final science products with cleaner user interaction than a loose notebook sequence.\n\nJupyter Scientific Computing Data Reduction Astronomy\n\n\n\nWhy it matters. This is the most distinctive project on the site because it combines domain knowledge, tool-building, and user experience. It reads as original technical work rather than a standard class assignment.\nWhat it shows. - Software design for research workflows - Scientific computing in Python - Reproducible analysis habits - Communication of a technical process to users\nGitHub repository\n\n\n\n\n\nAn affordable agricultural robotics concept focused on embedded control, motion planning, and practical design under real-world constraints. The long-term motivation is to build technology that is actually usable in resource-constrained farming communities.\n\nArduino Raspberry Pi Embedded Control Robotics\n\n\nWhy it matters. This project shows that my technical interests are not limited to pure analysis. I also build around hardware, sensors, control logic, and physical systems.\nWhat it shows. - Systems thinking - Rapid prototyping - Practical engineering tradeoffs - Strong motivation for applied problem solving\n\n\n\n\n\nA prose-first Quarto report on customer churn prediction using Python, pandas, scikit-learn, classification models, cross-validation, and ROC-AUC. The writeup is designed to read like a professional analysis memo rather than a homework notebook.\n\nscikit-learn Classification Cross-Validation ROC-AUC Git\n\nWhy it matters. This is the most recruiter-friendly project on the site. It directly mirrors the language used in many entry-level data science and ML job descriptions.\nWhat it shows. - Exploratory data analysis - Feature engineering and preprocessing - Logistic regression and tree-based modeling - Performance analysis with clean narrative structure\n\n\n\n\n\nThese materials show the research side of the astronomy work and make the project feel more complete. They also show that the work can be explained clearly in a public presentation format.\n\n\n\n\n\nFocuses on the KOSMOS reduction pipeline, science motivation, RV analysis, and validation against APOGEE values.\nOpen PDF\n\n\n\n\n\n\nA revised poster version that foregrounds pipeline construction, extracted spectra, wavelength calibration, and future validation work.\nOpen PDF\n\n\n\n\n\nFuture poster or presentation\n\n\n\n\nReserved for another poster, slide deck, or technical presentation.\n\n\n\n\n\n\n\nReserved for a second polished report centered on regression, RMSE, and model comparison. A strong follow-up option is a house-price or energy-usage problem with clearer continuous outcomes."
+  },
+  {
+    "objectID": "projects/projects.html#selected-projects",
+    "href": "projects/projects.html#selected-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "This page highlights work in astronomy software, robotics, and machine learning. The goal is to show range without losing focus.\n\n\n\nA Python and Jupyter-based astronomy workflow for reducing KOSMOS multi-slit spectroscopic data. The project is built around an interactive workflow that helps move from raw observations to final science products with cleaner user interaction than a loose notebook sequence.\n\nJupyter Scientific Computing Data Reduction Astronomy\n\n\n\nWhy it matters. This is the most distinctive project on the site because it combines domain knowledge, tool-building, and user experience. It reads as original technical work rather than a standard class assignment.\nWhat it shows. - Software design for research workflows - Scientific computing in Python - Reproducible analysis habits - Communication of a technical process to users\nGitHub repository\n\n\n\n\n\nAn affordable agricultural robotics concept focused on embedded control, motion planning, and practical design under real-world constraints. The long-term motivation is to build technology that is actually usable in resource-constrained farming communities.\n\nArduino Raspberry Pi Embedded Control Robotics\n\n\nWhy it matters. This project shows that my technical interests are not limited to pure analysis. I also build around hardware, sensors, control logic, and physical systems.\nWhat it shows. - Systems thinking - Rapid prototyping - Practical engineering tradeoffs - Strong motivation for applied problem solving\n\n\n\n\n\nA prose-first Quarto report on customer churn prediction using Python, pandas, scikit-learn, classification models, cross-validation, and ROC-AUC. The writeup is designed to read like a professional analysis memo rather than a homework notebook.\n\nscikit-learn Classification Cross-Validation ROC-AUC Git\n\nWhy it matters. This is the most recruiter-friendly project on the site. It directly mirrors the language used in many entry-level data science and ML job descriptions.\nWhat it shows. - Exploratory data analysis - Feature engineering and preprocessing - Logistic regression and tree-based modeling - Performance analysis with clean narrative structure\n\n\n\n\n\nThese materials show the research side of the astronomy work and make the project feel more complete. They also show that the work can be explained clearly in a public presentation format.\n\n\n\n\n\nFocuses on the KOSMOS reduction pipeline, science motivation, RV analysis, and validation against APOGEE values.\nOpen PDF\n\n\n\n\n\n\nA revised poster version that foregrounds pipeline construction, extracted spectra, wavelength calibration, and future validation work.\nOpen PDF\n\n\n\n\n\nFuture poster or presentation\n\n\n\n\nReserved for another poster, slide deck, or technical presentation.\n\n\n\n\n\n\n\nReserved for a second polished report centered on regression, RMSE, and model comparison. A strong follow-up option is a house-price or energy-usage problem with clearer continuous outcomes."
   },
   {
     "objectID": "projects/agribot.html",
